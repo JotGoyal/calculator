@@ -1,6 +1,41 @@
 .cardmain{
-    width: 50%;
+    width: 35%;
     height: 400px;
     margin-top: 7%;
-    margin-left: 25%;
+    margin-left: 35%;
+}
+
+.i{
+    border: 2px gray solid;
+}
+
+.shelf{
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 4%;
+
+}
+
+.input{
+    display: inline-block;
+    width: 100%;
+}
+
+.row{
+    border: white 2px solid;
+    margin-left: 2%;
+}
+
+.minibox{
+    height: 50px;
+    padding: 3%;
+    background-color: #1D222F;
+    text-align: center;
+    color: white;
+}
+
+.minibox:hover{
+    border: black 0.5px solid;
+    font-size: 25px;
+    background-color: black;
 }
