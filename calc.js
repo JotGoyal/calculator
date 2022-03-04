@@ -6,7 +6,7 @@ function calc(operation){
         output=`Sum of number is ${Number(a)+Number(b)}`
     }
     else if(operation=='Sub'){
-        output=`Sub of number is ${Number(a)+Number(b)}`
+        output=`Sub of number is ${Number(a)-Number(b)}`
     }
     else if(operation=='Mul'){
         output=`Multiplication of number is ${Number(a)*Number(b)}`
