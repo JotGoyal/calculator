@@ -2,6 +2,11 @@ body{
     margin: auto;
 }
 
+.calc2{
+    float: right;
+    text-align: center;
+}
+
 .cardmain{
     width: 35%;
     height: 450px;
