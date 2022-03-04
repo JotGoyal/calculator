@@ -39,7 +39,9 @@ input[type="text"]{
 .function{
     background-color: #171b25;
 }
-
+.equals{
+    background-color: #2b468b;
+}
 
 .minibox{
     height: 70px;
@@ -52,5 +54,5 @@ input[type="text"]{
 .minibox:hover{
     border: black 0.5px solid;
     font-size: 25px;
-    background-color: black;
+    background-color: rgb(49, 49, 49);
 }

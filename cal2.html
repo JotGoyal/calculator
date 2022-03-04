@@ -2,6 +2,7 @@
     <head>
         <title>Calculator</title>
         <link href="calc.css" rel="stylesheet"/>
+        <script src="https://kit.fontawesome.com/97f33a6782.js" crossorigin="anonymous"></script>
         <link href="./images/icon.png" rel="icon"/>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>   
@@ -77,7 +78,7 @@
                             </div>
                             
                         </div>
-                        <div class="row ">
+                        <!-- <div class="row ">
                             <div class="col-md-3 minibox">
                                 
                             </div>
@@ -90,14 +91,14 @@
                             <div class="col-md-2 minibox">
                                 
                             </div>
-                        </div>
+                        </div> -->
                         
                         <div class="row ">
                             <div class="col-md-3 minibox function">
-                                <i type="button"  onClick="calc('Add')">7</i>
+                                <i type="button" class="fas fa-square-root-alt text-color:white" onClick="calc('Add')"></i>
                             </div>
                             <div class="col-md-3 minibox function">
-                                <i type="button"  onClick="calc('Add')">7</i>
+                                <i type="button" class="fas fa-not-equal text-color:white" onClick="calc('Add')"></i>
                             </div>
                             <div class="col-md-3 minibox function">
                                 <i type="button"  onClick="calc('Add')">%</i>
@@ -159,10 +160,10 @@
                             <div class="col-md-3 minibox number">
                                 <i type="button" onClick="calc('Add')">.</i>
                             </div>
-                            <!-- <div class="col-md-3 minibox">
-                                <i type="button" onClick="calc('Sub')">0</i>
+                             <div class="col-md-2 minibox equals">
+                                <i type="button" onClick="calc('Sub')">=</i>
                             </div>
-                            <div class="col-md-3 minibox">
+                            <!-- <div class="col-md-3 minibox">
                                
                             </div>
                             <div class="col-md-2 minibox">
